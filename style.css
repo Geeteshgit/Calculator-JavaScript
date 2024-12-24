@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5em 0;
+    color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#output{
+    width: 100%;
+    height: 70px;
+    font-size: 4rem;
+    color: white;
+    text-align: right;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 80px;
+    height: 80px;
+    padding: 1em;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background-color: #2A2A2C;
+    cursor: pointer;
+    margin: 4px;
+}
+
+tr td:last-child button{
+    background-color: #FF9500;
+}
+
+tr:nth-child(2) button{
+    background-color: #5C5C5F;
+}
+
+
+
+#calc{
+    width: 100%;
+    border-radius: 50px;
+}
